@@ -1,0 +1,138 @@
+﻿<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://localhot:8080/Framework/ontology/service_ontology.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://localhot:8080/Framework/ontology/service_ontology.owl">
+    <Prefix name="" IRI="http://localhot:8080/Framework/ontology/service_ontology.owl"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <ObjectProperty IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#hasClassification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#Output"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#hasInput"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#Classification"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#output_schema"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#URI"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#label"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#Input"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#input_schema"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#Service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#Parameter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#hasOutput"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#Classification"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#Parameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#Input"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#Parameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#Output"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#Parameter"/>
+    </SubClassOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#hasClassification"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#Service"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#hasInput"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#Service"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#hasOutput"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#Service"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#hasClassification"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#Classification"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#hasInput"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#Input"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#hasOutput"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#Output"/>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#label"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#URI"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#Service"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#input_schema"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#Service"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#label"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#output_schema"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#Service"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#type"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#Parameter"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#URI"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#input_schema"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#label"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#output_schema"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://localhot:8080/Framework/ontology/service_ontology.owl#type"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
