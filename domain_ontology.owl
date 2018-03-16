@@ -13,299 +13,299 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
-        <Class IRI="#AdaBoostM1"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#AdaBoostM1"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#content"/>
+        <DataProperty IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#content"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#NaiveBayes_Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#NaiveBayes_Model"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#BayesNet_Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#BayesNet_Model"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#MiningAlgorithms"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#MiningAlgorithms"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#SMO_Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#SMO_Model"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Nominal_Arff"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Nominal_Arff"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Logistic_Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Logistic_Model"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Data_Source"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Data_Source"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#NaiveBayes"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#NaiveBayes"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Precision"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Precision"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#SMO"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#SMO"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#NaiveBayesMultinomialText_Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#NaiveBayesMultinomialText_Model"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#NaiveBayesUpdateable"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#NaiveBayesUpdateable"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#FilteredClassifier_Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#FilteredClassifier_Model"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#SimpleKMeans_Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#SimpleKMeans_Model"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#NaiveBayesMultinomialText"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#NaiveBayesMultinomialText"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Model"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Arff"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Arff"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#J48"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#J48"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#MultilayerPerceptron"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#MultilayerPerceptron"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#SimpleLogistic"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#SimpleLogistic"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#AdaBoostM1_Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#AdaBoostM1_Model"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ClassificationViaRegression_Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#ClassificationViaRegression_Model"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Logistic"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Logistic"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#BayesNet"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#BayesNet"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Recall"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Recall"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#number"/>
+        <DataProperty IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#number"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#NaiveBayesUpdateable_Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#NaiveBayesUpdateable_Model"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#MultilayerPerceptron_Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#MultilayerPerceptron_Model"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Parameters"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Parameters"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#SimpleLogistic_Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#SimpleLogistic_Model"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ClassificationViaRegression"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#ClassificationViaRegression"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Number_Clusters"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Number_Clusters"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#path"/>
+        <DataProperty IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#path"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Numeric_Arff"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Numeric_Arff"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#J48_Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#J48_Model"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#double_number"/>
+        <DataProperty IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#double_number"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#FilteredClassifier"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#FilteredClassifier"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#SimpleKMeans"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#SimpleKMeans"/>
     </Declaration>
     <SubClassOf>
-        <Class IRI="#AdaBoostM1"/>
-        <Class IRI="#MiningAlgorithms"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#AdaBoostM1"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#MiningAlgorithms"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#AdaBoostM1_Model"/>
-        <Class IRI="#Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#AdaBoostM1_Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Model"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Arff"/>
-        <Class IRI="#Parameters"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Arff"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Parameters"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#BayesNet"/>
-        <Class IRI="#MiningAlgorithms"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#BayesNet"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#MiningAlgorithms"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#BayesNet_Model"/>
-        <Class IRI="#Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#BayesNet_Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Model"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#ClassificationViaRegression"/>
-        <Class IRI="#MiningAlgorithms"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#ClassificationViaRegression"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#MiningAlgorithms"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#ClassificationViaRegression_Model"/>
-        <Class IRI="#Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#ClassificationViaRegression_Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Model"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Data_Source"/>
-        <Class IRI="#Parameters"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Data_Source"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Parameters"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#FilteredClassifier"/>
-        <Class IRI="#MiningAlgorithms"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#FilteredClassifier"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#MiningAlgorithms"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#FilteredClassifier_Model"/>
-        <Class IRI="#Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#FilteredClassifier_Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Model"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#J48"/>
-        <Class IRI="#MiningAlgorithms"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#J48"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#MiningAlgorithms"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#J48_Model"/>
-        <Class IRI="#Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#J48_Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Model"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Logistic"/>
-        <Class IRI="#MiningAlgorithms"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Logistic"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#MiningAlgorithms"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Logistic_Model"/>
-        <Class IRI="#Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Logistic_Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Model"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Model"/>
-        <Class IRI="#Parameters"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Parameters"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MultilayerPerceptron"/>
-        <Class IRI="#MiningAlgorithms"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#MultilayerPerceptron"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#MiningAlgorithms"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MultilayerPerceptron_Model"/>
-        <Class IRI="#Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#MultilayerPerceptron_Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Model"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#NaiveBayes"/>
-        <Class IRI="#MiningAlgorithms"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#NaiveBayes"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#MiningAlgorithms"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#NaiveBayesMultinomialText"/>
-        <Class IRI="#MiningAlgorithms"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#NaiveBayesMultinomialText"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#MiningAlgorithms"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#NaiveBayesMultinomialText_Model"/>
-        <Class IRI="#Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#NaiveBayesMultinomialText_Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Model"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#NaiveBayesUpdateable"/>
-        <Class IRI="#MiningAlgorithms"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#NaiveBayesUpdateable"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#MiningAlgorithms"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#NaiveBayesUpdateable_Model"/>
-        <Class IRI="#Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#NaiveBayesUpdateable_Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Model"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#NaiveBayes_Model"/>
-        <Class IRI="#Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#NaiveBayes_Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Model"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Nominal_Arff"/>
-        <Class IRI="#Arff"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Nominal_Arff"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Arff"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Number_Clusters"/>
-        <Class IRI="#Parameters"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Number_Clusters"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Parameters"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Numeric_Arff"/>
-        <Class IRI="#Arff"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Numeric_Arff"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Arff"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Precision"/>
-        <Class IRI="#Parameters"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Precision"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Parameters"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Recall"/>
-        <Class IRI="#Parameters"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Recall"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Parameters"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#SMO"/>
-        <Class IRI="#MiningAlgorithms"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#SMO"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#MiningAlgorithms"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#SMO_Model"/>
-        <Class IRI="#Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#SMO_Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Model"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#SimpleKMeans"/>
-        <Class IRI="#MiningAlgorithms"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#SimpleKMeans"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#MiningAlgorithms"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#SimpleKMeans_Model"/>
-        <Class IRI="#Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#SimpleKMeans_Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Model"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#SimpleLogistic"/>
-        <Class IRI="#MiningAlgorithms"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#SimpleLogistic"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#MiningAlgorithms"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#SimpleLogistic_Model"/>
-        <Class IRI="#Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#SimpleLogistic_Model"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Model"/>
     </SubClassOf>
     <DataPropertyDomain>
-        <DataProperty IRI="#double_number"/>
-        <Class IRI="#Precision"/>
+        <DataProperty IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#double_number"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Precision"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#double_number"/>
-        <Class IRI="#Recall"/>
+        <DataProperty IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#double_number"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Recall"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#number"/>
-        <Class IRI="#Number_Clusters"/>
+        <DataProperty IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#number"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Number_Clusters"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#path"/>
-        <Class IRI="#Arff"/>
+        <DataProperty IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#path"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Arff"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#path"/>
-        <Class IRI="#Data_Source"/>
+        <DataProperty IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#path"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Data_Source"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#path"/>
-        <Class IRI="#Model"/>
+        <DataProperty IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#path"/>
+        <Class IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#Model"/>
     </DataPropertyDomain>
     <DataPropertyRange>
-        <DataProperty IRI="#content"/>
+        <DataProperty IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#content"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#double_number"/>
+        <DataProperty IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#double_number"/>
         <Datatype abbreviatedIRI="xsd:double"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#number"/>
+        <DataProperty IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#number"/>
         <Datatype abbreviatedIRI="xsd:integer"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#path"/>
+        <DataProperty IRI="http://localhot:8080/Framework/ontology/domian_ontology.owl#path"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
 </Ontology>
